@@ -817,9 +817,14 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-            <form action="#" id="sendMail" method="post" role="form" class="php-email-form">
+            <form action="http://dydxmultitasking.in/api/index.php" id="sendMail" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
+                  <input type="hidden" name="api" value="1.0">
+                  <input type="hidden" name="user_id" value="1">
+                  <input type="hidden" name="action" value="mail_send_from_rvlancersolutions">
+                  <input type="hidden" name="token" value="testtoken_rohit">
+                  <input type="hidden" name="api_version" value="1.0.0">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -937,7 +942,7 @@
 
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/contact.js"></script>
+  <!-- <script src="./assets/js/contact.js"></script> -->
 </body>
 
 </html>
