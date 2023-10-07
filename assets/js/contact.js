@@ -9,7 +9,7 @@ document.getElementById('sendMail').addEventListener('submit', function(e){
         message: formdata.get('message'),
     }
     $.ajax({
-        url: 'http://dydxmultitasking.in/api/index.php?api=1.0&user_id=1&action=mail_send_from_rvlancersolutions&token=testtoken_rohit&api_version=1.0.0',
+        url: 'https://dydxmultitasking.in/api/index.php?api=1.0&user_id=1&action=mail_send_from_rvlancersolutions&token=testtoken_rohit&api_version=1.0.0',
         type: 'POST',
         data: post_data,
         success: function(res){
